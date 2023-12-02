@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* index */
+
+.header {
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.container {
+    
+    margin-inline: auto;
+    height: 96px;
+}
+
+.nav {
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.links {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+section {
+    background-color: #f0f0f0;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.container-section {
+    width: 1080px;
+    height: 220px;
+    margin-inline: auto;
+}
+
+.container-main {
+    width: 900px;
+    height: 220px;
+    margin-inline: auto;
+
+}
+
+.content {
+    width: 600px;
+    height: 200px;
+    margin-inline: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.espacio-main {
+    height: 200px;
+}
+
+.h2-content {
+    font-size: 40px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+footer {
+    max-width: 100%;
+}
+
+.links-footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.link-footer {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.p-footer {
+text-align: center;
+}
+
+hr {
+    width: 80rem;
+    margin-inline: auto;
+}
+
+.hr-footer {
+    margin-top: 35px;
+}
+
+
+/* -------------- blog/index */
+
+.container-blog {
+    width: 1280px;
+    height: 180px;
+    margin-inline: auto;
+    padding: 0 20px
+}
+
+.content-blog {
+    width: 672px;
+    height: 160px;
+    padding: 30px;
+}
+
+.h2-container-blog {
+    font-size: 30px;
+}
+
+.section-2 {
+    max-width: 100%;
+    margin-inline: auto;
+    background-color: #ffffff;
+}
+
+.container-blog-2 {
+    width: 1280px;
+    margin-inline: auto;
+    padding: 25px
+}
+
+.content-blog-2 {
+    width: 672px;
+    padding: 0px;
+    margin-inline: auto;
+}
+
+.hr-2 {
+    width: 672px;
+}
+
+.h3-blog-ideal {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.article-list-blog {
+    width: 576px;
+    height: 260px;
+}
+
+.hora-container {
+    text-align: left;
+    margin: 15px 0px;
+}
+
+.article-blog {
+    width: 576;
+}
+
+.p-article-blog {
+    margin: 20px 0px;
+
+}
+
+.author {
+   
+}
+
+.role-name {
+    display: inline-block;
+}
+
+.mujer {
+    object-fit: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;   
+    display: inline-block;
+}
+
+.p-role-name {
+    display: inline-block;
+    margin: 4.5px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.container-role-name {
+    display: inline-block;
+}
+
+.tag-principiante {
+    background-color: #a9c;
+    display: inline-block;
+}
+
+.p-fecha {
+    display: inline-block;
+    margin: 0px;
+}
+
+
+/* conoce elementos HTML*/
+
+.images-img {
+    width: 672px;
+}
+
+.container-blog-3 {
+    width: 1280px;
+    margin-inline: auto;
+    padding: 25px
+}
+
+.content-blog-3 {
+    width: 672px;
+    padding: 0px;
+    margin-inline: auto;
+}
+
+.h1-title-conoce {
+    padding: 20px 0;
+    font-size: 36px;
+}
+
+h3, h4 {
+    padding: 20px 0 5px 0;
+}
+
+.ul-conoce li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.pre-ul {
+    background-color: #171717;
+    padding: 15px 0;
+    color: #F5F5F5;
+    border-radius: 4px;
+}
+
+h2 {
+    margin: 35px 0 25px 0
+}
+
+.table-conoce tr td {
+    border: 1px solid #D4D4D4;
+}
+

@@ -4,53 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codificable</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <a href="/index.html">Codificable</a>
-        <nav>
-            <ul>
-                <li><a href="/blog/index.html">Blog</a></li>
-                <li><a href="/blog/conoce-los-elementos-basicos-de-html.html">Sobre Nosotros</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="nav">          
+                <h1><a href="index.html" class="home">Codificable</a></h1>                
+                    <ul class="links">
+                        <li class="link"><a href="/blog/index.html">Blog</a></li>
+                        <li class="link"><a href="/blog/conoce-los-elementos-basicos-de-html.html">Sobre Nosotros</a></li>
+                    </ul>                
+            </div>  
+        </div>
     </header>
 
     <main>
         <section>
-            <div>
-                <div>
-                    <h2>Queremos verte crecer</h2>
-                    <p>Únete a la comunidad de desarroladores de mayor crecimiento de la región y lleva tu carrera a un siguiente nivel.</p>
-                    <a href="/blog/index.html">Visita nuestro blog</a>
+            <div class="container-section">
+                <div class="container-main">
+                    <div class="content">
+                        <h2 class="h2-content">Queremos verte crecer</h2>
+                        <p>Únete a la comunidad de desarroladores de mayor crecimiento de la región y lleva tu carrera a un siguiente nivel.</p>
+                        <a href="/blog/index.html">Visita nuestro blog</a>
+                    </div>
                 </div>
             </div>        
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr>
-        <br>
+        <div class="espacio-main"></div>
     </main>
     <footer>
-        <div>
-            <ul>
-                <li><a href="#"><img src="/assets/icons/facebook.svg" alt="Facebook icon"></a></li>
-                <li><a href="#"><img src="/assets/icons/linkedin.svg" alt="Linkedin icon"></a></li>
-                <li><a href="#"><img src="/assets/icons/twitter.svg" alt="Twitter icon"></a></li>
-                <li><a href="#"><img src="/assets/icons/github.svg" alt="Github icon"></a></li>
-            </ul>
-            <p>© 2023 Codificable - Todos los derechos reservados</p>
+        <div class="hr-footer">
+            <hr>
         </div>
+            <ul class="links-footer">
+                <li class="link-footer"><a href="#"><img src="/assets/icons/facebook.svg" alt="Facebook icon"></a></li>
+                <li class="link-footer"><a href="#"><img src="/assets/icons/linkedin.svg" alt="Linkedin icon"></a></li>
+                <li class="link-footer"><a href="#"><img src="/assets/icons/twitter.svg" alt="Twitter icon"></a></li>
+                <li class="link-footer"><a href="#"><img src="/assets/icons/github.svg" alt="Github icon"></a></li>
+            </ul>
+            <p class="p-footer">© 2023 Codificable - Todos los derechos reservados</p>
+        
     </footer>
 </body>
 </html>
