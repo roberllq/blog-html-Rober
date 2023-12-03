@@ -64,10 +64,10 @@ section {
 
 .content {
     width: 600px;
-    height: 200px;
+    height: 220px;
     margin-inline: auto;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .espacio-main {
@@ -76,6 +76,7 @@ section {
 
 .h2-content {
     font-size: 40px;
+    margin-top: 25px 0 0 0;
 }
 
 p {
@@ -122,7 +123,7 @@ hr {
 .content-blog {
     width: 672px;
     height: 160px;
-    padding: 30px;
+    padding: 15px;
 }
 
 .h2-container-blog {
@@ -164,6 +165,10 @@ hr {
 .hora-container {
     text-align: left;
     margin: 15px 0px;
+}
+
+.h3-blog {
+    margin: -30px 0 15px 0;
 }
 
 .article-blog {
@@ -250,6 +255,11 @@ h3, h4 {
     padding: 15px 0;
     color: #F5F5F5;
     border-radius: 4px;
+}
+
+.p-pre-ul {
+    text-align: left;
+    margin-left: -155px;
 }
 
 h2 {
