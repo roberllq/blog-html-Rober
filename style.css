@@ -91,9 +91,10 @@ section {
 .espacio-main {
     height: 225px;
     text-align: center;
+    margin-inline: auto;
 }
 iframe {
-    max-width: 450px;
+    max-width: 650px;
     height: 200px;
     margin: 15px;
 }
